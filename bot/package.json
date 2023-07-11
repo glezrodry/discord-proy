@@ -1,0 +1,23 @@
+{
+  "name": "discordjs-replies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deploy-commands.js && nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "gif-encoder-2": "^1.0.5",
+    "node-html-to-image": "^3.2.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
